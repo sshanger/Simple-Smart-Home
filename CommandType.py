@@ -1,0 +1,8 @@
+from enum import Enum
+class CommandType(Enum):
+    GET_SWITCH_STATUS = 1
+    SET_SWITCH_STATUS = 2
+    GET_LIGHT_INTENSITY = 3
+    SET_LIGHT_INTENSITY = 4
+    GET_TEMPERATURE = 5
+    SET_TEMPERATURE = 6
